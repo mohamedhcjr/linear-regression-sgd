@@ -1,0 +1,11 @@
+No.	Optimizer	One-Line Explanation
+1.	Gradient Descent	Updates weights in the direction of the negative gradient of the loss function.
+2.	Stochastic Gradient Descent (SGD)	Updates weights after each training sample, allowing faster but noisier convergence.
+3.	Mini-Batch Gradient Descent	Combines batch and stochastic methods by updating weights using small batches of data.
+4.	Momentum	Accelerates SGD by adding a fraction of the previous update to the current one.
+5.	Nesterov Accelerated Gradient (NAG)	Improves momentum by calculating the gradient at a lookahead position.
+6.	Adagrad	Adapts the learning rate for each parameter based on past gradients.
+7.	RMSprop	Modifies Adagrad by using an exponentially decaying average of squared gradients.
+8.	Adam (Adaptive Moment Estimation)	Combines Momentum and RMSprop for adaptive learning rates and faster convergence.
+9.	Adadelta	An extension of Adagrad that limits the accumulation of past gradients.
+10.	Adamax	A variant of Adam based on the infinity norm, often more stable for sparse gradients.
